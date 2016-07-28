@@ -21,7 +21,7 @@
 
 var FATAL_ERROR_KEY = '--rn-fatal--';
 var ASYNC_STORAGE_KEY = '--raven-js-global-error-payload--';
-var PATH_STRIP_RE = /^.+?(?=\/main.jsbundle$|$)/;
+var PATH_STRIP_RE = /^\/var\/mobile\/Containers\/Bundle\/Application\/[^\/]+\/[^\.]+\.app/;
 
 /**
  * Strip device-specific IDs from React Native file:// paths
